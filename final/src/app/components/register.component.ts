@@ -283,7 +283,7 @@ export class RegisterComponent implements OnInit {
         this.router.navigate(['/dashboard']);
       },
       error: (error) => {
-        this.error = error.error?.message || 'Registration failed. Please try again.';
+        this.error = error?.message || error?.error?.message || 'Registration failed. Please try again.';
         this.loading = false;
       }
     });

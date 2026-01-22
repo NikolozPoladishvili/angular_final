@@ -1,16 +1,40 @@
-# Final
+# TaskMaster - Task Management Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+A modern task management application built with Angular 21, featuring a clean UI and mock data service for easy development and testing.
 
-## Development server
+## 🚀 Quick Start
 
-To start a local development server, run:
+**New to this project?** Check out the **[STARTUP_GUIDE.md](./STARTUP_GUIDE.md)** for detailed installation and setup instructions.
+
+### Quick Commands
 
 ```bash
-ng serve
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+# or
+npx ng serve
+
+# Build for production
+npm run build
+
+# Run tests
+npm test
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`.
+
+### Default Login Credentials
+
+- **Email:** `user@example.com` or `admin@example.com`
+- **Password:** Any password (validation disabled in mock mode)
+
+## 📚 Documentation
+
+- **[STARTUP_GUIDE.md](./STARTUP_GUIDE.md)** - Complete setup and troubleshooting guide
+- **[PROJECT_STRUCTURE.md](../PROJECT_STRUCTURE.md)** - Project architecture overview
 
 ## Code scaffolding
 
